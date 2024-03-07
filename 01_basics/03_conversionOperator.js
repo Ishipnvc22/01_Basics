@@ -29,6 +29,25 @@ let stringNumber = String(someNumber)
 // ********************** Operations *************************
 
 let value = 3
-let negValue = -value
+let negValue = -value // -value will return the value in minus as negative value/number. 
 
 console.log(negValue);
+
+// operation should be done in a proper manner
+// if u declare and assinging value of let m1,m2,m3 like m1=m2=m3 then it is a wrong practice.
+
+console.log("1" + 2);
+console.log(1 + "2"); // this type of operation is concate method
+
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2"); // this type of operation is also concate method
+
+console.log(3 + 4 * 5 % 3);
+console.log((3 + 4) * 5 % 3); // this is proper form of code 
+
+
+
+
+
+console.log(+true); // +true will return the value 1.
+console.log(+""); // +"" will return the value 0.
