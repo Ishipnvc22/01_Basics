@@ -1,10 +1,10 @@
 let score = "33"
 
-console.log(typeof 33);
-console.log(typeof(score)); // method way to check type
+// console.log(typeof 33);
+// console.log(typeof(score)); // method way to check type
 
 let valueInNumber = Number(score)
-console.log(typeof valueInNumber);
+// console.log(typeof valueInNumber);
 
 // "33" => this will get easily converted to number 33
 // "33abc" => this will not convert into number but gives you NaN
@@ -15,8 +15,8 @@ let isLoggedIn = 1
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 
-console.log(typeof booleanIsLoggedIn);
-console.log(booleanIsLoggedIn);
+// console.log(typeof booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 // if u use "" empty string it will return false as boolean type.
 // if u use "..." not an empty string it will return true as boolean type.
@@ -24,5 +24,11 @@ console.log(booleanIsLoggedIn);
 let someNumber = 33
 
 let stringNumber = String(someNumber)
+// console.log(stringNumber);
 
-console.log(stringNumber);
+// ********************** Operations *************************
+
+let value = 3
+let negValue = -value
+
+console.log(negValue);
