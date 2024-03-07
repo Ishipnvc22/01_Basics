@@ -20,7 +20,6 @@ const bigNumber = 5875555544545454n
 
 // reference (Non primitive)
 // Array, Objects, Functions
-
 // u can treat function as variable in javaScript.
 
 heros = ["shaktiman","naagraj","doga"];
@@ -45,3 +44,34 @@ console.log(typeof score); //number
 console.log(typeof scoreValue); //number
 console.log(typeof userEmail); //undefined
 console.log(typeof anotherId); //symbol
+
+
+
+
+// -------------------------------------------
+
+// there are 2 kind of memory one is Stack and another is Heap Memory
+
+// Primitive data stores into Stack Memory.
+// Non-Primitive data stores into heap Memory.
+
+
+let myYoutubename = "hiteshchoudarydotcom"
+
+let anothername = myYoutubename
+anothername="chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
