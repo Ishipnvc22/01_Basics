@@ -2,8 +2,7 @@ var c = 300
 
 if(true){
     let a = 10
-    const b = 5
-    var c = 30
+    console.log('Inner : ',a)
 }
 
 // console.log(a)
