@@ -1,6 +1,8 @@
 // if
 
-if (condition){ // condition can be true or false 
+const isUserloggedIn = true
+
+if (isUserloggedIn){ // condition can be true or false 
 
 }
 
