@@ -14,6 +14,7 @@ for (const greet of greetings){
 //Maps
 
 //maps doesn't allow duplicate data to be execute
+//map is not iterable
 
 const map = new Map()
 map.set('IN',"India")
